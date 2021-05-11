@@ -1,0 +1,777 @@
+.navbar {
+  background: transparent;
+  z-index: 1;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #00263b;
+  font-size: 500;
+  font-family: Oswald;
+  position: relative;
+  padding: 0 20px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  line-height: 18px;
+  font-size: 13px;
+  padding-left: -100px;
+}
+
+.navbar .socio-nav .socio-link {
+  display: inline-block;
+}
+
+.navbar .socio-nav .socio-link .socio .fa {
+  display: block;
+  list-style: none;
+  width: 40px;
+  font-size: 20px;
+  color: #00263b !important;
+  margin: 10px;
+  margin-top: 21px;
+}
+
+.banner {
+  background-image: url("../img/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  padding-top: 100px;
+  margin-top: -150px;
+}
+
+.banner h1 {
+  color: #e5452b;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  width: 700px;
+  line-height: 90px;
+  font-size: 60px;
+  white-space: normal;
+  letter-spacing: 11px;
+  padding-top: 50px;
+}
+
+.banner p {
+  color: #00263b;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  line-height: 30px;
+  letter-spacing: 5px;
+}
+
+.banner .button {
+  background-color: #e5452b;
+  color: #fff;
+  font-size: 15px;
+  padding: 21px 51px;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.choose h1 {
+  background-color: #fff;
+  color: #00263b;
+  text-align: center;
+  letter-spacing: 11px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px;
+  padding: 30px 30px;
+  text-transform: uppercase;
+}
+
+.cards {
+  background-color: #F5F5F5;
+  padding: 40px 40px;
+}
+
+.cards .in-card {
+  background: #fff;
+  padding: 30px;
+  margin: 10px;
+}
+
+.cards .in-card h4 {
+  color: #00263b;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cards .in-card #raw {
+  position: relative;
+  padding-left: 40px;
+}
+
+.cards .in-card #raw::before {
+  position: absolute;
+  content: "\f18c";
+  font-family: "FontAwesome";
+  left: 0;
+  color: #e5452b;
+}
+
+.cards .in-card #dealing {
+  position: relative;
+  padding-left: 40px;
+}
+
+.cards .in-card #dealing::before {
+  position: absolute;
+  content: "\f02d";
+  font-family: "FontAwesome";
+  left: 0;
+  color: #e5452b;
+}
+
+.cards .in-card #state {
+  position: relative;
+  padding-left: 40px;
+}
+
+.cards .in-card #state::before {
+  position: absolute;
+  content: "\f072";
+  font-family: "FontAwesome";
+  left: 0;
+  color: #e5452b;
+}
+
+.about {
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.about h1 {
+  color: #00263b;
+  text-align: left;
+  letter-spacing: 11px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 23px;
+  padding: 30px 30px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.about h1:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  border-radius: 10px;
+  background: #e5452b;
+  margin-top: 20px;
+}
+
+.about h6 {
+  color: #00263b;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  line-height: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.about p {
+  color: #00263b;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: Open Sans;
+}
+
+.about img {
+  width: 100%;
+}
+
+.quotes {
+  background-color: #00263b;
+  height: 165px;
+}
+
+.quotes h4 {
+  color: white;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 7px;
+  line-height: 36px;
+  display: block;
+  margin: 14px 0 0;
+  padding: 28px;
+}
+
+.quotes .color-change {
+  color: #e5452b;
+}
+
+.quotes .bttn {
+  color: white;
+  font-size: 15px;
+  padding-right: 60px;
+  text-decoration: none;
+  border: 2px solid #e5452b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  margin: 55px;
+  border-width: 2px;
+  padding: 15px 44px;
+  display: block;
+}
+
+.quotes .bttn::after {
+  position: absolute;
+  content: "\f061";
+  font-family: "FontAwesome";
+  color: #e54503;
+  right: 105px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 22px;
+  line-height: 24px;
+}
+
+.cores {
+  background-color: #F5F5F5;
+  padding: 50px;
+  display: block;
+}
+
+.cores h1 {
+  color: #00263b;
+  text-align: center;
+  letter-spacing: 11px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+  padding: 40px 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding-top: 0;
+  margin: 0 0 23px;
+}
+
+.cores h5 {
+  color: #00263b;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  position: relative;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding-top: 0;
+  line-height: 28px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.cores #integrety {
+  position: relative;
+}
+
+.cores #integrety::before {
+  position: absolute;
+  content: "\f14a";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cores #quality {
+  position: relative;
+}
+
+.cores #quality::before {
+  position: absolute;
+  content: "\f091";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #long {
+  position: relative;
+}
+
+.cores #long::before {
+  position: absolute;
+  content: "\f06e";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #solution {
+  position: relative;
+}
+
+.cores #solution::before {
+  position: absolute;
+  content: "\f0eb";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #staff {
+  position: relative;
+}
+
+.cores #staff::before {
+  position: absolute;
+  content: "\f0c0";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #improve {
+  position: relative;
+}
+
+.cores #improve::before {
+  position: absolute;
+  content: "\f140";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #safety {
+  position: relative;
+}
+
+.cores #safety::before {
+  position: absolute;
+  content: "\f21b";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores #operation {
+  position: relative;
+}
+
+.cores #operation::before {
+  position: absolute;
+  content: "\f219";
+  font-family: "FontAwesome";
+  left: -30px;
+  color: #e5452b;
+}
+
+.cores p {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: grey;
+}
+
+.testimona {
+  background-image: url("../img/laptop1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimona h5 {
+  color: #00263b;
+  font-family: Oswald;
+  text-align: center;
+  padding: 130px 130px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+
+.logo {
+  padding: 30px 30px;
+  width: 1130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 30px;
+  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.call-back {
+  background-image: url("../img/bluemount.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 50px;
+}
+
+.call-back h1 {
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 11px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.call-back .form {
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 50px;
+}
+
+.call-back .form input, .call-back .form select {
+  padding-left: 17px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #243238;
+  background: #cacaca;
+  border: none;
+  padding: 10px 10px;
+  height: 49px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px 30px 15px;
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+}
+
+.call-back .form input[type=submit] {
+  background-color: #e5452b;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Oswald;
+  line-height: 23px;
+  padding: 10px 42px;
+  height: 49px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  width: 90%;
+  letter-spacing: 5px;
+  display: inline-block;
+  border: 3px solid #e5452b;
+}
+
+.footer {
+  background-color: #00263b;
+  display: block;
+  max-width: 100%;
+}
+
+.footer .contacts h4 {
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #80939d;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-family: Oswald;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.footer .contacts .avenue {
+  font-size: 13px;
+  font-weight: 400;
+  color: #80939d;
+  line-height: 20px;
+  font-family: Open Sans;
+  list-style: none;
+  padding: 0;
+}
+
+.footer .contacts li {
+  margin-bottom: 20px;
+}
+
+.footer .contacts #moon {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer .contacts #moon::before {
+  position: absolute;
+  content: "\f041";
+  font-family: "FontAwesome";
+  color: #80939d;
+  left: 0;
+  top: 5px;
+  font-size: 16px;
+}
+
+.footer .contacts #free {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer .contacts #free::before {
+  position: absolute;
+  content: "\f10b";
+  font-family: "FontAwesome";
+  color: #748f9e;
+  left: 0;
+  top: 5px;
+  font-size: 18px;
+  margin-top: -4px;
+}
+
+.footer .contacts #fax {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer .contacts #fax::before {
+  position: absolute;
+  content: "\f1ac";
+  font-family: "FontAwesome";
+  color: #748f9e;
+  left: 0;
+  top: 5px;
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.footer .contacts #email {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer .contacts #email::before {
+  position: absolute;
+  content: "\f003";
+  font-family: "FontAwesome";
+  color: #748f9e;
+  left: 0;
+  top: 5px;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.networks h4 {
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #80939d;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-family: Oswald;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.networks .socialn {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  color: #80939d;
+}
+
+.networks li {
+  display: inline-block;
+  color: #80939d;
+  margin: 5px;
+}
+
+.networks li .fcebook {
+  background-color: #80939d;
+  display: block;
+  width: 32px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  color: #00263b !important;
+}
+
+.forma form input[type=email] {
+  width: 100%;
+  max-width: 255px;
+  background: #2d4059;
+  padding: 10px 57px 10px 17px;
+  min-height: 32px;
+  vertical-align: baseline;
+  line-height: normal;
+  border: 3px solid #2d4059;
+}
+
+.forma form button {
+  background-color: #e5452b;
+  outline: none;
+  padding: 10px;
+  margin-left: -10px;
+  border: 1px solid #e5452b;
+}
+
+.forma form button .fa {
+  color: #F5F5F5;
+}
+
+.forma p {
+  color: #80939d;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 15px;
+  font-family: Open Sans;
+}
+
+.copyright p {
+  font-family: Open Sans;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #80939d;
+  width: 100%;
+}
+
+/*....About Us...*/
+.top-banner {
+  background-image: url(../img/consulting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 57px 0 27px;
+  background-size: cover;
+  background-color: whitesmoke;
+}
+
+.top-banner h1 {
+  color: #fff;
+  text-align: left;
+  letter-spacing: 4px;
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.content-area {
+  margin-top: -75px !important;
+  margin-bottom: 55px !important;
+  padding-top: 81px !important;
+  padding-bottom: 78px !important;
+  background-color: #f2f2f2 !important;
+}
+
+.content-area .text-area-1 p {
+  font-family: Oswald;
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  margin-top: 80px;
+}
+
+.content-area .text-area-2 p {
+  font-family: Open Sans;
+  color: #243238;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content-area .center-quote p {
+  background-color: #fff;
+  padding: 21px 30px 18px;
+  border-left: 5px solid #e5452b;
+  font-size: 16px;
+  line-height: 26px;
+  color: #243238;
+}
+
+.content-area .side-image img {
+  width: 100%;
+  margin-top: -135px;
+}
+
+.why-choose h2 {
+  background-color: #fff;
+  color: #00263b;
+  text-align: left;
+  letter-spacing: 3px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px;
+  padding: 30px 30px;
+  text-transform: uppercase;
+}
+
+.why-choose h2:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  border-radius: 10px;
+  background: #e5452b;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
